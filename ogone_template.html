@@ -1,0 +1,94 @@
+<html>
+<!-- This is example of Dynamic Template Page you can start from to personnalize the look 
+of your payment pages.
+This page must be hosted on your own website. We retrieve it every time an authorization 
+is requested. The URL of the Template Page hosted on your site is given by you in
+the hidden fields of the ordering form for each authorization request.
+You can change anything in this page but you must keep the "PAYMENT ZONE" and 
+the $$$ strings exactly as they are.
+
+The styles and classes defined hereafter allow you to modify the lay out of 
+the elements added by us during the authorization process. Just change the 
+properties of those styles to fit to the look of your site.
+-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;CHARSET=iso-8859-1">
+  <title>Demo "standard mode" Sample Template Page</title>
+  <style type="text/css">
+    <!--
+      td.ncolh1  {}
+
+      td.ncoltxtl { text-align: right; width: 230px; }
+      td.ncoltxtr { padding-left: 28px;  }
+
+      td.ncoltxtl2 { text-align: right; width: 230px }
+      td.ncolinput { padding-left: 28px; }
+
+      td.ncolinput input {
+        width: 256px;
+        height: 34px;
+        line-height: 34px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        border: solid 1px #d3d3d3;
+        padding:0;
+      }
+
+      td.ncolinput select {
+        width: 90px;
+        height: 34px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        border: solid 1px #d3d3d3;
+      }
+
+      td.ncoltxtc {}
+      td.ncollogol {}
+      td.ncollogor {}
+      td.ncollogoc {}
+      td.ncoltxtmessage {}
+
+      td.ncolline1 { }
+      td.ncolline2 { }
+      input.ncol   { 
+        width: 308.9px;
+        height: 50px;
+        border-radius: 4px;
+        background-color: #74ae00;
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.5);
+      }
+
+      table.ncoltable1 { 
+        font-size: 14px;
+        color: #333333;
+        width: 100%;
+      }
+      table.ncoltable2 { 
+        font-size: 14px;
+        color: #333333;
+        width: 100%;
+      }
+      table.ncoltable3 { background-color: lightblue;  }
+      // for Direct Debit payments
+      .DDtxt {text-align: left;margin-left:2em;font-weight: normal;margin-top:0;}
+      .DDlabel {text-align: left; margin-left:4em;font-weight: normal;margin-top:0;}
+      .DDdata {font-weight: normal;margin-top:0;}
+      .MKtxt {text-align: left;font-weight: bold; margin-left:2em;margin-top:0;}
+      .MKlabel {text-align: left; margin-left:4em;font-weight: normal;font-style:italic;margin-top:0;}
+      td.ncoltxtr p.MKlabel {margin-left:0;}
+      .MKdata {font-weight: normal;margin-top:0;}
+      .DDimp {font-weight: bold;margin-left:2em;text-align: left;margin-top:0;}
+      .DDsection {font-weight: bold;margin-left:0em;text-align: left; margin-top:1em; margin-bottom: 0em;}
+    -->
+  </style>
+</head>
+
+<body>
+  
+          $$$PAYMENT ZONE$$$
+
+</body>
+
+</html>
+
